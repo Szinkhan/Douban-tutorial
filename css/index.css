@@ -1,0 +1,246 @@
+/* 顶部上部分样式 */
+.top{
+    width: 1263px;
+    height: 140px;
+ 
+}
+.top .top_up{
+    height: 34px;
+    background-color: #edf4ec;
+}
+.top .top_up img{
+    width: 102px;
+    height: 22px;
+    margin: 5px 30px;
+}
+/* 顶部下部分样式 */
+.top .top_down{
+    width: 1080px;
+    height: 33px;
+    margin: 50px auto;
+}
+.top .top_down .top_list{
+    float: right;
+    margin-top: 6px;
+}
+.top .top_down .top_list ul li{
+    display: inline-block;
+    margin: 0 14px 0 0;
+}
+.top .top_down .top_logo{
+    width: 73px;
+    height: 28px;
+}
+.top .top_down .top_logo img{
+    width: 73px;
+    height: 28px;
+}
+.top .top_down .top_input{
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    border: 1px solid #c3c3c3;
+    display: inline-block;
+    top: 84px;
+    left: 186px; 
+}
+
+.top .top_down .top_input .sou{
+    height: 30px;
+    overflow: hidden;
+}
+.top .top_down .top_input .sou input{
+    width: 240px;
+    height: 20px;
+    border: none;
+    padding: 5px;
+}
+.top .top_down .top_input .btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 237px;
+    cursor: pointer;
+    overflow: hidden;
+    background: url(../img/bn.png) 50% 50% no-repeat;
+}
+.top .top_down .top_input .btn input{
+    border: none;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+}
+
+/* 登录部分样式 */
+.login{
+    width: 1263px;
+    height: 304px;
+    background-image: url(../img/bg.jpg);
+    margin-bottom: 25px;
+    background-size: contain;
+    background-position: calc(50% - 305px) top;
+    background-repeat: no-repeat;
+}
+
+/* 热点内容 */
+.sns{
+    width: 1263px;
+    height: 540px;
+}
+.container{
+    width: 920px;
+    height: 520px;
+    margin: 0 auto;
+}
+.sns .main {
+    width: 655px;
+    height: 520px;
+}
+.sns .main .mod{
+    width: 655px;
+    height: 490px;
+    display: inline-block;
+}
+  h2{
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin: 0 0 12px 0;
+}
+.sns  h2>span{
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+}
+.sns .main .main-list{
+    width: 350px;
+    height: 388px;
+    display: inline-block;
+}
+.sns .main .main-list ul li{
+    display: inline-block;
+    font-size: 12px;
+}
+.sns .main .main-list .main-pic{
+    width: 170px;
+    height: 170px;
+}
+.sns .main .main-note {
+    width: 275px;
+    height: 456px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 30px;
+}
+.sns .side{
+    float: right;
+    width: 265px;
+    height: 506px;
+}
+.sns .side img{
+    width: 225px;
+    height: 125px;
+}
+.sns .online{
+    width: 265px;
+    height: 325px;
+}
+.sns .side .online li{
+    margin-top: 10px;
+    color: #999;
+}
+.sns .side .online a{
+    display: inline-block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #37a;
+}
+.sns .side .online .topic span{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 1;
+    color: #aaaa;
+    overflow: hidden;
+}
+
+/* 豆瓣时间 */
+.doutime{
+    width: 100%;
+    height: 635px;
+    background-color: #f7f7f7;
+}
+.doutime .container{
+    padding: 35px 0 0 0;
+}
+.doutime .time{
+    width: 100px;
+    height: 37.3px;
+    float: left;
+    margin-top: -5px ;
+}
+.doutime .main{
+    width: 800px;
+    height: 500px;
+    float: right;
+}
+.doutime .time a{
+    font-size: 24px;
+    color: #494949;
+}
+.doutime  h2>span{
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+}
+.doutime .main ul li{
+    width: 100px;
+    display: inline-block;
+    margin: 10px 57px 50px 0;
+
+}
+.doutime .main ul li .main-img{
+    width: 100px;
+    height: 141px;
+}
+.doutime .main ul li a{
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin-bottom: 10px;
+}
+.doutime .main ul li img {
+    width: 100px;
+    height: 141px;
+}
+.doutime .main ul  span{
+    color: #999;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+/* 底部 */
+.footer{
+    width: 950px;
+    height: 145px;
+    margin: 0 auto;
+    
+}
+.footer .main{
+    padding: 14px 0;
+    margin-top: 10px;
+    border-top: 1px dashed #dcdcdc;
+}
+.footer .main .ft1 {
+    float: left;
+}
+.footer .main  a{
+    color: #37a;
+    cursor: pointer;
+}
+.footer .main .ft2{
+    float: right;
+}

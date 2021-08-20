@@ -1,0 +1,15 @@
+body,h1,h2,h3,h4,h5,ul,ol,dl,dt{
+    margin: 0;
+    padding: 0;
+}
+body,td,th{
+    font: 12px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
